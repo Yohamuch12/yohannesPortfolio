@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yohannes | Frontend developer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">JO</div>
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="nav-btn">Hire Me</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <header class="hero visible">
+        <div class="hero-text">
+          <span class="badge">Frontend developer</span>
+          <h1>
+            Hi, I'm <span class="muted">Yohannes</span>
+          </h1>
+          <p>
+            Building clean, scalable, and high-performance web applications
+            using modern technology stacks.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-white">Contact me</a>
+            <a href="#portfolio" class="nav-links">View projects →</a>
+          </div>
+        </div>
+        <div class="image-wrapper">
+          <img
+            src="./image/grok_image_1772118587083.jpg"
+            alt="Portrait"
+          />
+        </div>
+      </header>
+
+      <section id="portfolio">
+        <span class="badge">Works</span>
+        <h2>Selected <span class="muted">Projects</span></h2>
+        <div class="project-grid">
+          
+          <!-- Project 1: Mekrez Academy -->
+          <a href="https://mekrez.education/" class="project-link-wrapper">
+            <div class="project-card">
+              <div class="project-img-box">
+                <img src="./image/mekrez.JPG" alt="Mekrez Education E-learning Platform" />
+              </div>
+              <h3>E-Learning Platform</h3>
+              <p class="muted">Online tutoring and academic support system</p>
+            </div>
+          </a>
+
+          <!-- Project 2: Wedding Invitation -->
+          <a href="https://yohamuch12.github.io/AbelAndFre/" class="project-link-wrapper">
+            <div class="project-card">
+              <div class="project-img-box">
+                <img src="./image/wedding.JPG" alt="Digital Wedding Invitation Layout" />
+              </div>
+              <h3>Digital Wedding Invitation</h3>
+              <p class="muted">Custom interactive web invitation with guest tracking features</p>
+            </div>
+          </a>
+
+        </div>
+      </section>
+      <section id="about">
+        <div class="about-grid">
+          <div>
+            <span class="badge">The Story</span>
+            <h2>Focused on <span class="muted">Performance.</span></h2>
+            <p class="muted">
+              With over 2 years of experience in the tech industry, I focus on
+              bridging the gap between design and complex engineering logic.
+            </p>
+          </div>
+          <div class="skills-card">
+            <h3>Technical Stack</h3>
+            <div class="skill-item">Frontend: Next.js, React, Tailwind</div>
+            <div class="skill-item">Backend: Node, PostgreSQL, Prisma</div>
+            <div class="skill-item">Design: Figma, Adobe XD</div>
+          </div>
+        </div>
+      </section>
+
+     <section id="contact">
+  <div class="contact-grid">
+    <!-- Left column -->
+    <div>
+      <span class="badge">CONTACT ME</span>
+      <h2><span class="muted">Let's talk!</span></h2>
+      <p class="contact-description">
+        Feel free to reach out! I'm open to freelance opportunities, frontend developer roles, or project collaborations. I will respond within 24 hours.
+      </p>
+    </div>
+
+    <!-- Right column with contact details -->
+    <div class="contact-details">
+      <!-- Email Card -->
+      <a href="mailto:yohamuch12@gmail.com" class="contact-card-wrapper">
+        <div class="contact-item">
+          <h3>Write an email</h3>
+          <p>yohamuch12@gmail.com</p>
+        </div>
+      </a>
+
+      <!-- Phone Card -->
+      <a href="tel:+251988983822" class="contact-card-wrapper">
+        <div class="contact-item">
+          <h3>Call me</h3>
+          <p>+251 988 983 822</p>
+        </div>
+      </a>
+
+      <!-- GitHub Card -->
+      <a href="https://github.com/yohamuch12" target="_blank" rel="noopener noreferrer" class="contact-card-wrapper">
+        <div class="contact-item">
+          <h3>Explore my GitHub</h3>
+          <p>github.com/yohamuch12</p>
+        </div>
+      </a>
+
+      <!-- LinkedIn Card -->
+      <a href="https://www.linkedin.com/in/yohannes-wende-a22322248/">
+        <div class="contact-item">
+          <h3>Connect on LinkedIn</h3>
+          <p>linkedin.com/in/yourprofile</p>
+        </div>
+      </a>
+
+      <!-- Address Card -->
+      <div class="contact-item">
+        <h3>Location</h3>
+        <p>Addis Ababa, Ethiopia</p>
+      </div>
+    </div>
+  </div>
+</section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
